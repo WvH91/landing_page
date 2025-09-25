@@ -24,15 +24,19 @@ body {
     display: flex;
     align-items: center;
     font-size: 18px;
-    color: #E5E7EB;
     gap: 32px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     margin: 128px 0;
-    gap: 32px;
+    gap: 64px;
 }
 
 .hero-main-text {
@@ -50,6 +54,7 @@ body {
 .placeholder-image {
     color: #E5E7EB;
     background-color:#6d747d;
+    font-size: 18px;
     height: 250px;
     width: 525px;
     display: flex;
@@ -67,27 +72,9 @@ body {
     padding: 8px 16px;
     border-radius: 8px;
     font-size: 18px;
-    width: 120px;
-    } 
-
-/* 
-
-.header {
     display: flex;
+    flex-shrink: 0;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 64px;
-}
-
-.header-right {
-    display: flex;
-    gap: 32px;
-}
-
-
-.left {
-    display: flex;
-    margin: 64px 0;
-    gap: 128px;
-}
-*/
+    width: 100px;
+    }
