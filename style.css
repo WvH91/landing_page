@@ -3,9 +3,9 @@ body {
     margin: 0;
 }
 
-.hero{
+.header{
     background-color: #1F2937;
-    padding: 16px 220px;
+    padding: 16px 220px 0 220px;
 }
 
 header {
@@ -13,14 +13,14 @@ header {
     justify-content: space-between;
 }
 
-header .left {
+.header-left {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
     align-items: center;
 }
 
-header .right {
+.header-right {
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -32,10 +32,11 @@ a {
     text-decoration: none;
 }
 
-.container {
+.hero {
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    margin: 128px 0;
+    padding: 128px 220px;
     gap: 64px;
 }
 
@@ -43,6 +44,7 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .hero-secondary-text {
@@ -93,6 +95,7 @@ a {
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    margin: 0;
 }
 
 .illustrations-container {
@@ -101,7 +104,7 @@ a {
     margin: 64px;
 }
 
-.content {
+.illustration {
     display: flex;
     flex-direction: column;
     justify-content: center; 
