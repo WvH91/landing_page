@@ -81,7 +81,7 @@ a {
     width: 100px;
     }
 
-/* section-2 */
+/* section-2 - Random information */
 
 .random-information {
     display: flex;
@@ -125,3 +125,89 @@ a {
  .subtext {
     text-align: center;
 } 
+
+/* section-3 - Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 128px 330px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-author {
+    margin: 0;
+    text-align:end;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0 32px 0 0;
+}
+
+/* section-4 */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    margin: 128px 0;
+    /* background-color: #3882F6;
+    gap: 32px;
+    border-radius: 8px; */
+
+}
+
+.action-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    gap: 128px;
+    padding: 32px 64px;
+}
+
+.action-title {
+    margin: 0;
+    font-size: 24px;
+    color: #E5E7EB;
+
+}
+
+.action-subtext {
+    color: #E5E7EB;
+}
+
+.action-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 1px solid #E5E7EB;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    }
+
+/* footer */
+
+footer {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
